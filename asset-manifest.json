@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/avia-search-app/static/css/main.908730c1.chunk.css",
+    "main.js": "/avia-search-app/static/js/main.d4579e7c.chunk.js",
+    "main.js.map": "/avia-search-app/static/js/main.d4579e7c.chunk.js.map",
+    "runtime-main.js": "/avia-search-app/static/js/runtime-main.8a2a6d6e.js",
+    "runtime-main.js.map": "/avia-search-app/static/js/runtime-main.8a2a6d6e.js.map",
+    "static/js/2.fbfea5fd.chunk.js": "/avia-search-app/static/js/2.fbfea5fd.chunk.js",
+    "static/js/2.fbfea5fd.chunk.js.map": "/avia-search-app/static/js/2.fbfea5fd.chunk.js.map",
+    "index.html": "/avia-search-app/index.html",
+    "static/css/main.908730c1.chunk.css.map": "/avia-search-app/static/css/main.908730c1.chunk.css.map",
+    "static/js/2.fbfea5fd.chunk.js.LICENSE.txt": "/avia-search-app/static/js/2.fbfea5fd.chunk.js.LICENSE.txt",
+    "static/media/AF.1bba0bb1.png": "/avia-search-app/static/media/AF.1bba0bb1.png",
+    "static/media/AY.08cd244b.png": "/avia-search-app/static/media/AY.08cd244b.png",
+    "static/media/AZ.1e4d7127.png": "/avia-search-app/static/media/AZ.1e4d7127.png",
+    "static/media/LO.0e11992f.png": "/avia-search-app/static/media/LO.0e11992f.png",
+    "static/media/PC.5a8f9e3b.png": "/avia-search-app/static/media/PC.5a8f9e3b.png",
+    "static/media/SN.7f677caf.png": "/avia-search-app/static/media/SN.7f677caf.png",
+    "static/media/SU1.19062cce.png": "/avia-search-app/static/media/SU1.19062cce.png",
+    "static/media/TK.d02982b9.png": "/avia-search-app/static/media/TK.d02982b9.png",
+    "static/media/wall-clock.309d0a3a.png": "/avia-search-app/static/media/wall-clock.309d0a3a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a2a6d6e.js",
+    "static/js/2.fbfea5fd.chunk.js",
+    "static/css/main.908730c1.chunk.css",
+    "static/js/main.d4579e7c.chunk.js"
+  ]
+}
