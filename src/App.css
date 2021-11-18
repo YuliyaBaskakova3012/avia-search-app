@@ -1,0 +1,9 @@
+.app-wrapper{
+  margin: 0 auto;
+  width: 900px;
+  display: grid;
+  grid-template-areas: 
+  'a b';
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+  }
