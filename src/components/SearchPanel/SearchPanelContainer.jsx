@@ -1,8 +1,8 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import SearchPanel from './SearchPanel';
-import {changeDisplayedData} from './changeData-reducer';
-import {changeCurrentPage} from './changeCurrentPage-reducer';
+import {changeDisplayedData} from '../../redux/changeData-reducer';
+import {changeCurrentPage} from '../../redux/changeCurrentPage-reducer';
 const SearchPanelContainer=(props)=><>
 <SearchPanel {...props}/>
 </>

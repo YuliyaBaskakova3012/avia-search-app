@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import './App.css';
 import style from './SearchPanel.module.css';
 export const SearchPanel=({initialData, displayedData, changeDisplayedData, changeCurrentPage})=>{
 let caption=a=>a.flight.carrier.caption;

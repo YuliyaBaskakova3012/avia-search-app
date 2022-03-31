@@ -1,5 +1,5 @@
 
-const {result}=require('./flights.json');
+const {result}=require('../flights.json');
 
 const CHANGE_DATA='CHANGE_DATA';
 ;

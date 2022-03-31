@@ -1,7 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import AviaSearchResults from './AviaSearchResults';
-import {changeCurrentPage} from './changeCurrentPage-reducer';
+import {changeCurrentPage} from '../../redux/changeCurrentPage-reducer';
 const AviaSearchResultsContainer=(props)=><>
 <AviaSearchResults {...props}/>
 </>

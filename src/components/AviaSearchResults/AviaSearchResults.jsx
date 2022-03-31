@@ -1,16 +1,16 @@
 import style from './AviaSearchResults.module.css';
-import AF from './assets/AF.png';
-import AY from './assets/AY.png';
-import AZ from './assets/AZ.png';
-import BT from './assets/BT.png';
-import KL from './assets/KL.png';
-import LO from './assets/LO.png';
-import PC from './assets/PC.png';
-import SN from './assets/SN.png';
-import SU1 from './assets/SU1.png';
-import TK from './assets/TK.png';
-import clock from './assets/wall-clock.png';
-import ruble from './assets/ruble.png';
+import AF from '../../assets/AF.png';
+import AY from '../../assets/AY.png';
+import AZ from '../../assets/AZ.png';
+import BT from '../../assets/BT.png';
+import KL from '../../assets/KL.png';
+import LO from '../../assets/LO.png';
+import PC from '../../assets/PC.png';
+import SN from '../../assets/SN.png';
+import SU1 from '../../assets/SU1.png';
+import TK from '../../assets/TK.png';
+import clock from '../../assets/wall-clock.png';
+import ruble from '../../assets/ruble.png';
 import { useEffect, useState } from 'react';
 const logo={AF, AY, AZ, BT, KL, LO, PC, SN, SU1, TK};
 export const AviaSearchResults=(props)=>{
