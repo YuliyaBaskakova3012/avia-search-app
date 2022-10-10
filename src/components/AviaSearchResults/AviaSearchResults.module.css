@@ -1,121 +1,158 @@
 .panel{
-background-color: #4479D4;
-padding-left: 5px;
-padding-right: 5px;
-margin-top: 20px;
-height: 55px;
-box-sizing: border-box;
-display: grid;
-color: white;
-grid-template-rows: 1fr 1fr;
-grid-template-columns: 1fr 1fr 2fr;
-grid-template-areas: 
-'a a b'
-'a a c';
+    background-color: #4479D4;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 20px;
+    height: 55px;
+    box-sizing: border-box;
+    display: grid;
+    color: white;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-areas: 
+    'a a b'
+    'a a c';
 }
+
 .panel:first-child img{
-  height: 40px;
+    height: 40px;
 }
+
 .panel :first-child{
-grid-area: a;
-display: flex;
-align-items: center;
+    grid-area: a;
+    display: flex;
+    align-items: center;
 }
+
 .panel :nth-child(2){
-grid-area: b;
-font-size: 20px;
-padding-right: 0px;
-display: flex;
-justify-content: flex-end;
-align-items: flex-end;
+    grid-area: b;
+    font-size: 20px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
+
 .panel :last-child{
-grid-area: c;
-text-align: end;
-font-size: 12px;
-padding-right: 5px;
+    grid-area: c;
+    text-align: end;
+    font-size: 12px;
+    padding-right: 5px;
 }
+
 .buttonPanel{
- background-color: #FFB673;
- width: 100%;
- color: white;
- border: none;
- height: 40px;
+    background-color: #FFB673;
+    width: 100%;
+    color: white;
+    border: none;
+    height: 40px;
 }
+
 .transfer{
- color: #FFB673;
- display: grid;
- grid-template-columns: 7fr 3fr 7fr;
-  }
+    color: #FFB673;
+    display: grid;
+    grid-template-columns: 7fr 3fr 7fr;
+}
+
 .clock{
- height: 15px;
-padding: 5px;
-  }
+    height: 15px;
+    padding: 5px;
+}
+
 .air{
-padding-left: 20px;
-  }
+    padding-left: 20px;
+}
+
 .air :nth-child(3),.air :nth-child(6){
-color: #4479D4
+    color: #4479D4
 }
+
 .date{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-padding-left: 20px;
-padding-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
 .date :nth-child(2){
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .date :nth-child(3){
-display: flex;
-justify-content: right;
+    display: flex;
+    justify-content: right;
 }
+
 .date :first-child{
- justify-content: left;
+    justify-content: left;
 }
+
 .date1{
-padding-left: 5px;
-color: #4479D4;
+    padding-left: 5px;
+    color: #4479D4;
 }
+
 .date2{
-padding-right: 5px;
-color: #4479D4;
+    padding-right: 5px;
+    color: #4479D4;
 }
+
 .transfer :nth-child(2){
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 .transfer :first-child{
-padding-left: 20px;
+    padding-left: 20px;
 }
+
 .transfer :last-child{
-padding-right: 20px;
+    padding-right: 20px;
 }
+
 .buttonAdd{
-width: 200px;
+    width: 200px;
 }
+
 .hr1{
-padding-left: 5px;
-padding-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
 .hr2{
-padding-left:  20px;
-padding-right: 20px;
+    padding-left:  20px;
+    padding-right: 20px;
 }
+
 .hr3{
-height: 3px;
-border: none;
-background-color: #4479D4;
-margin: 0px;
+    height: 3px;
+    border: none;
+    background-color: #4479D4;
+    margin: 0px;
 }
+
 .divButtonAdd{
-display: flex; 
-justify-content: center;
-margin-top: 20px;
-margin-bottom: 20px;
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 .s{
-padding-left: 20px;
-padding-bottom: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .panel{
+        height: 85px; 
+    }
+    .transfer{
+        text-align: center;   
+    }
+    .date{
+        height: 70px;
+        grid-template-columns: 1fr;   
+    }
 }

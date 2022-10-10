@@ -1,38 +1,46 @@
 .search div:first-child{
-  background-color: #C0C0C0;
-  height: 30px;
-  margin-bottom: 20px;
+    background-color: #C0C0C0;
+    height: 30px;
+    margin-bottom: 20px;
 }
+
 .search div:last-child{
-  background-color:#C0C0C0;
-  height: 90px;
+    background-color:#C0C0C0;
+    height: 90px;
 }
+
 .search div{
-  padding-left: 10px;
-  margin-bottom: 10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
+
 .search div:nth-child(2), .search div:nth-child(6), .search div:nth-child(9), .search div:nth-child(12){
-  padding-top: 15px;
-  padding-bottom: 15px;
-  }
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .search div:nth-child(3), .search div:nth-child(4), .search div:nth-child(5), .search div:nth-child(7), .search div:nth-child(8){
-  height: 8px;
-  }
+    height: 8px;
+}
+
 .search div:nth-child(9){
-  height: 20px;
-  }
+    height: 20px;
+}
+
 .search div:nth-child(10), .search div:nth-child(11){
-  display: grid;
-  grid-template-columns: 1fr 8fr;
-  height: 30px;
-  margin-bottom: 0px;
-  padding-left: 15px
-  }
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    height: 30px;
+    margin-bottom: 0px;
+    padding-left: 15px
+}
+
 .search div:nth-child(10) div, .search div:nth-child(11) div{
-  background-color: white;
-  padding-left: 0px;
-  padding-top: 0px;
-  }
+    background-color: white;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
 .search div:nth-child(10):last-child{
-  background-color: aqua;
-  }
+    background-color: aqua;
+}
